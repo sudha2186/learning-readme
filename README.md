@@ -1,5 +1,5 @@
 # CS50 MESSENGER
-#### Video Demo:  <URL HERE>
+#### Video Demo:  [URL HERE](https://youtu.be/lK3h4tbaW5A)
 #### Description:
 # Messenger Web Application
 
@@ -62,18 +62,16 @@ Before running the application, make sure you have the following installed:
       - Implementing secure password storage and validation.
       - Managing sessions to prevent unauthorized access.
 
-### 1.
+### 2. Inbox Management
 
   - What I Did:
-      - Created a user authentication system using Flask sessions.
-      - Passwords are securely stored in the database after hashing.
-      - User registration requires a unique username, and optional email and phone number fields are available.
-      - During login, the system verifies user credentials and initiates a session.
+      - Built a feature to display messages in an inbox format.
+      - Added sender and receiver details with dynamic labeling.
+      - Displayed the message subject, body (truncated for simplicity), timestamp, and message status.
 
   - Challenges:
 
-      - Implementing secure password storage and validation.
-      - Managing sessions to prevent unauthorized access.
+      - Querying the database efficiently to fetch only relevant messages for the logged-in user.
 
 ### 3. Reply Functionality
 
@@ -84,8 +82,7 @@ Before running the application, make sure you have the following installed:
 
   - **Challenges**:
 
-      - ### Debugging an issue where "You" as a recipient caused validation to fail.
-      - ### Ensuring the sender and receiver fields were properly interchanged in replies.
+      - Ensuring the sender and receiver fields were properly maintained.
 
 ### 4. Message Deletion and Trash Management
 
