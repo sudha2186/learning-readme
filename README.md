@@ -1,5 +1,5 @@
 # CS50 MESSENGER
-#### Video Demo:  [(https://youtu.be/lK3h4tbaW5A)]
+#### Video Demo:  https://youtu.be/lK3h4tbaW5A
 #### Description:
 # Messenger Web Application
 
